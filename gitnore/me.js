@@ -14,7 +14,7 @@ $(function(){
 		  alert("你输入爱的密码!");
 		  return;
 		}
-		if(code=="LL17Forever" || code=="liujiaying" || code=="leibailong" || code="20171008"){
+		if(code=="LL17Forever" || code=="liujiaying" || code=="leibailong" || code=="20171008"){
 			document.getElementById("login").style.display="none";
 			document.getElementById("content").style.display="";
 			//创建div
