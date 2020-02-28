@@ -9,6 +9,7 @@ $(function(){
 function identify(){
 	var code = document.getElementById("code").value;
 	var day = getDays('2017-10-08')+1;
+	var day2 = getDays('2019-10-02')+1;
 		if(code==""){
 		  alert("你输入爱的密码!");
 		  return;
@@ -18,10 +19,15 @@ function identify(){
 			document.getElementById("content").style.display="";
 			//创建div
 			var dayDiv = document.createElement('div');
-			dayDiv.innerHTML = "<div class='midb'><font size='8' color='4589ae'>今天是我们爱的</font></div><div class='midb'>"+
+			dayDiv.innerHTML = "<div class='midb'><font size='8' color='4589ae'>今天是我们相爱</font></div><div class='midb'>"+
 			"<font size='8' color='4589ae'>第<span>"+day+"</span>天</font></div>";
 			var tDiv = document.getElementById("title");
 			tDiv.appendChild(dayDiv);
+			
+			var dayDiv2 = document.createElement('div');
+			dayDiv2.innerHTML = "<div class='midb'><font size='8' color='4589ae'>今天是我们结婚</font></div><div class='midb'>"+
+			"<font size='8' color='4589ae'>第<span>"+day2+"</span>天</font></div>";
+			tDiv.appendChild(dayDiv2);
 		}else{
 			alert("你输入爱的密码不正确!请重新输入!");
 			document.getElementById("code").value="";
