@@ -19,13 +19,13 @@ function identify(){
 			document.getElementById("content").style.display="";
 			//创建div
 			var dayDiv = document.createElement('div');
-			dayDiv.innerHTML = "<div class='midb'><font size='8' color='4589ae'>今天是我们相爱</font></div><div class='midb'>"+
+			dayDiv.innerHTML = "<div class='midb'><font size='8' color='4589ae'>我们相爱</font></div><div class='midb'>"+
 			"<font size='8' color='4589ae'>第<span>"+day+"</span>天</font></div>";
 			var tDiv = document.getElementById("title");
 			tDiv.appendChild(dayDiv);
 			
 			var dayDiv2 = document.createElement('div');
-			dayDiv2.innerHTML = "<div class='midb'><font size='8' color='4589ae'>今天是我们结婚</font></div><div class='midb'>"+
+			dayDiv2.innerHTML = "<div class='midb'><font size='8' color='4589ae'>我们结婚</font></div><div class='midb'>"+
 			"<font size='8' color='4589ae'>第<span>"+day2+"</span>天</font></div>";
 			tDiv.appendChild(dayDiv2);
 		}else{
