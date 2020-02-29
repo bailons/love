@@ -14,17 +14,17 @@
 	}
 	.mid{
 		width:21%;
-		min-width: 430px;
+		min-width: 387px;
 		height:240px;
 		margin:0 auto;
 		background-color:white;
 		padding-bottom:40px;	
 		opacity:0.8;
 		filter:alpha(opacity=90);
-		position:relative;
+		margin-top:120px;	
 	}
 	.mid2{
-		height:266px;
+		height:206px;
 	}
 	.mida{
 		width:100%;
@@ -35,14 +35,32 @@
 		line-height:60px;
 		
 	}
-	.midb{
+	
+	.midbzi{
 		width:100%;
 		height:50px;
 		margin-left:0px;
 		text-align:center;
 		line-height:60px;
 		margin-top:10px;
+		color:#4589ae;
 		
+	}
+	
+	.midb{
+		width:100%;
+		height:50px;
+		margin-left:0px;
+		text-align:center;
+		line-height:75px;
+		margin-top:10px;
+		color:#4589ae;
+		font-size:32px;
+		
+	}
+	.midb .midb1{
+		color:#6a5acd;
+		font-size:52px;
 	}
 	.input_1{
 		width:80%;
