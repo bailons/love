@@ -37,6 +37,7 @@
         var code = document.getElementById("code").value;
         var day = getDays('2017-10-08')+1;
         var day2 = getDays('2019-10-02')+1;
+	var day3 = getDays('2021-05-08')+1;
         if(code==""){
             alert("你输入爱的密码!");
             return;
@@ -53,6 +54,10 @@
             var dayDiv2 = document.createElement('div');
             dayDiv2.innerHTML = "<div class='midb'>我们结婚第<span class='midb1'>"+day2+"</span>天</div>";
             tDiv.appendChild(dayDiv2);
+		
+	    var dayDiv3 = document.createElement('div');
+            dayDiv3.innerHTML = "<div class='midb'>我们宝宝第<span class='midb1'>"+day3+"</span>天</div>";
+            tDiv.appendChild(dayDiv3);
         }else{
             alert("你输入爱的密码不正确!请重新输入!");
             document.getElementById("code").value="";
